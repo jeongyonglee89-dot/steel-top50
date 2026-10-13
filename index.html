@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Steel Top 50 Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">
+      <h1>Global Steel Top 50<span class="h1-sub">세계 철강사 경쟁 구도 · 실적과 전망</span></h1>
+      <div id="fx-info" class="fx-info"></div>
+    </div>
+    <div class="controls">
+      <div class="tab-group tab-actual">
+        <span class="tab-label">실적</span>
+        <div id="year-actual" class="year-selector" role="group" aria-label="실적 연도 선택"></div>
+      </div>
+      <div class="tab-group tab-forecast">
+        <span class="tab-label">전망</span>
+        <div id="year-forecast" class="year-selector" role="group" aria-label="전망 연도 선택"></div>
+      </div>
+      <div id="scenario-selector" class="scenario-selector" role="group" aria-label="시나리오 선택" hidden></div>
+      <button type="button" id="play-btn" class="play-btn" aria-pressed="false" title="2023 → 2028E 연도를 차례로 재생">▶ 연도 재생</button>
+      <label class="toggle">
+        <input type="checkbox" id="exclude-china" />
+        중국 철강사 제외
+      </label>
+    </div>
+  </header>
+
+  <main class="layout">
+    <div class="map-wrap">
+      <div id="map" class="map"></div>
+      <div id="insight-box" class="insight-box" hidden></div>
+    </div>
+    <aside class="side-panel">
+      <h2 id="action-title"></h2>
+      <div id="table-title" class="panel-sub"></div>
+      <div id="kpi-bar" class="kpi-bar"></div>
+      <div id="forecast-banner" class="forecast-banner" hidden></div>
+      <div class="table-wrap">
+        <table id="rank-table" class="rank-table">
+          <thead>
+            <tr>
+              <th>순위</th>
+              <th>회사</th>
+              <th data-sort="crude">조강량<span class="arrow"></span><br /><small>Mt</small></th>
+              <th data-sort="revenue"><span class="th-label">매출액</span><span class="arrow"></span><br /><small>조원</small></th>
+              <th data-sort="ebitdaPct">EBITDA<span class="arrow"></span><br /><small>%</small></th>
+              <th data-sort="pbr">PBR<span class="arrow"></span><br /><small>배</small></th>
+              <th data-sort="dps" title="주당배당금 (원)">DPS<span class="arrow"></span><br /><small class="th-unit">원</small></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="table-note">
+        머리글 클릭: 지표별 순위·지도 마커 전환 · 행 클릭: 회사 상세 · <sup>e</sup> WSA 추정치<br />
+        금액: 현지통화 × 기준일 환율(원화) · 배당: 회계연도 중 배당락 기준 · 그룹 비상장 시 대표 상장 자회사 기준
+      </p>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <span id="source-text"></span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data/world.js"></script>
+  <script src="data/companies.js"></script>
+  <script src="data/insights.js"></script>
+  <script src="data/facilities.js"></script>
+  <script src="data/forecast.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

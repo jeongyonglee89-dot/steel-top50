@@ -1,0 +1,80 @@
+{
+ "hrc": {
+  "file": "assets/products/hrc.jpg",
+  "title": "Steel Coils - Leeco Steel - Antonio Rosset.jpg",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Steel_Coils_-_Leeco_Steel_-_Antonio_Rosset.jpg"
+ },
+ "crc": {
+  "file": "assets/products/crc.jpg",
+  "title": "Steel coils loaded on truck deck.jpg",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Steel_coils_loaded_on_truck_deck.jpg"
+ },
+ "coated": {
+  "file": "assets/products/coated.jpg",
+  "title": "Colored steel coils.jpg",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Colored_steel_coils.jpg"
+ },
+ "plate": {
+  "file": "assets/products/plate.jpg",
+  "title": "Queensland State Archives 3662 Rocklea workshops heavy plate being sheared Mrs Bradfield Dr Bradfield and Mr McKew in background Brisbane 8 May 1936.png",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Queensland_State_Archives_3662_Rocklea_workshops_heavy_plate_being_sheared_Mrs_Bradfield_Dr_Bradfield_and_Mr_McKew_in_background_Brisbane_8_May_1936.png"
+ },
+ "electrical": {
+  "file": "assets/products/electrical.jpg",
+  "title": "Special shape transformer cores.jpg",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Special_shape_transformer_cores.jpg"
+ },
+ "stainless": {
+  "file": "assets/products/stainless.jpg",
+  "title": "Stainless steel coiled tubes made by Sandvik.jpg",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Stainless_steel_coiled_tubes_made_by_Sandvik.jpg"
+ },
+ "rebar": {
+  "file": "assets/products/rebar.jpg",
+  "title": "A bunch of rebar up close.jpg",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:A_bunch_of_rebar_up_close.jpg"
+ },
+ "section": {
+  "file": "assets/products/section.jpg",
+  "title": "I-Beam 002.JPG",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:I-Beam_002.JPG"
+ },
+ "pipe": {
+  "file": "assets/products/pipe.jpg",
+  "title": "Seamless Steel Pipes.jpg",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Seamless_Steel_Pipes.jpg"
+ },
+ "bar": {
+  "file": "assets/products/bar.jpg",
+  "title": "Stainless Steel Carbon Steel Mild Steel Duplex Steel nickel Alloys Titanium CuproNickel Round Bar.jpg",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Stainless_Steel_Carbon_Steel_Mild_Steel_Duplex_Steel_nickel_Alloys_Titanium_CuproNickel_Round_Bar.jpg"
+ },
+ "rail": {
+  "file": "assets/products/rail.jpg",
+  "title": "Rails and carriages loaded with Steel - geograph.org.uk - 6505469.jpg",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rails_and_carriages_loaded_with_Steel_-_geograph.org.uk_-_6505469.jpg"
+ },
+ "battery": {
+  "file": "assets/products/battery.jpg",
+  "title": "Cathode Coating Materials.jpg",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Cathode_Coating_Materials.jpg"
+ },
+ "generic": {
+  "file": "assets/products/generic.jpg",
+  "title": "Steel coil and machinery - geograph.org.uk - 8200249.jpg",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Steel_coil_and_machinery_-_geograph.org.uk_-_8200249.jpg"
+ }
+}

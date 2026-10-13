@@ -1,0 +1,18 @@
+{
+  "name": "steel-top30-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "data": "python scripts/build_data.py && node scripts/fetch_finance.mjs",
+    "forecast": "python scripts/forecast_model.py",
+    "insights": "node scripts/fetch_insights.mjs && node scripts/hangulize.mjs && node scripts/check_links.mjs",
+    "facilities": "node scripts/fetch_facilities.mjs && node scripts/hangulize.mjs && node scripts/check_links.mjs",
+    "all": "npm run data && npm run forecast && npm run insights && npm run facilities",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "yahoo-finance2": "^4.0.3"
+  }
+}

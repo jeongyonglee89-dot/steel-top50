@@ -1,0 +1,16 @@
+# 개발·테스트 산출물 (배포 불필요)
+node_modules/
+test-results/
+playwright-report/
+
+# 작업용 캐시 (지오코딩·한글 변환·링크 확인)
+scripts/.*-cache.json
+
+# 제출용 압축 파일 (개인정보 포함)
+*.zip
+
+# API 키 — 폴더 안에 두지 말 것
+.env
+
+# 파이썬 실행 캐시
+__pycache__/
